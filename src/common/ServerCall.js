@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL="http://localhost:3030"
+const BASE_URL=process.env.NEXT_PUBLIC_BACKEND_URL
 
 class ServerCall {
     static fnSendGetReq(url){
